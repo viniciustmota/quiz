@@ -1,0 +1,10 @@
+C:\Users\Fatec\Desktop\quiz\Quiz\bin\Debug\Quiz.exe.config
+C:\Users\Fatec\Desktop\quiz\Quiz\bin\Debug\Quiz.exe
+C:\Users\Fatec\Desktop\quiz\Quiz\bin\Debug\Quiz.pdb
+C:\Users\Fatec\Desktop\quiz\Quiz\obj\Debug\Quiz.csprojAssemblyReference.cache
+C:\Users\Fatec\Desktop\quiz\Quiz\obj\Debug\Quiz.Form1.resources
+C:\Users\Fatec\Desktop\quiz\Quiz\obj\Debug\Quiz.Properties.Resources.resources
+C:\Users\Fatec\Desktop\quiz\Quiz\obj\Debug\Quiz.csproj.GenerateResource.cache
+C:\Users\Fatec\Desktop\quiz\Quiz\obj\Debug\Quiz.csproj.CoreCompileInputs.cache
+C:\Users\Fatec\Desktop\quiz\Quiz\obj\Debug\Quiz.exe
+C:\Users\Fatec\Desktop\quiz\Quiz\obj\Debug\Quiz.pdb
