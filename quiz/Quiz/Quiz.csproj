@@ -154,6 +154,7 @@
     <Compile Include="Form9.Designer.cs">
       <DependentUpon>Form9.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pontos.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -298,6 +299,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\cruz.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\god of war logo.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

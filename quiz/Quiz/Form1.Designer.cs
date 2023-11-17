@@ -46,7 +46,7 @@
             this.COMEÇAR.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(122)))), ((int)(((byte)(78)))));
             this.COMEÇAR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.COMEÇAR.Font = new System.Drawing.Font("Bahnschrift Condensed", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.COMEÇAR.Location = new System.Drawing.Point(24, 124);
+            this.COMEÇAR.Location = new System.Drawing.Point(51, 153);
             this.COMEÇAR.Name = "COMEÇAR";
             this.COMEÇAR.Size = new System.Drawing.Size(187, 72);
             this.COMEÇAR.TabIndex = 2;
@@ -58,7 +58,7 @@
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(160)))), ((int)(((byte)(108)))));
             this.pictureBox2.Image = global::Quiz.Properties.Resources.titulo;
-            this.pictureBox2.Location = new System.Drawing.Point(33, 26);
+            this.pictureBox2.Location = new System.Drawing.Point(57, 40);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(174, 89);
             this.pictureBox2.TabIndex = 1;
@@ -69,7 +69,7 @@
             this.pictureBox1.Image = global::Quiz.Properties.Resources._1;
             this.pictureBox1.Location = new System.Drawing.Point(0, 26);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(473, 327);
+            this.pictureBox1.Size = new System.Drawing.Size(572, 407);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -80,7 +80,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(160)))), ((int)(((byte)(108)))));
-            this.ClientSize = new System.Drawing.Size(473, 338);
+            this.ClientSize = new System.Drawing.Size(573, 433);
             this.Controls.Add(this.COMEÇAR);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);

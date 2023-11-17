@@ -16,8 +16,8 @@ namespace Quiz
 
         private void playSimpleSound()
         {
-            SoundPlayer simpleSound = new SoundPlayer(@"V:\Dev\quiz\quiz\Som\musica.wav");
-            simpleSound.Play();
+            SoundPlayer simpleSound = new SoundPlayer(@"C:\Users\Fatec\Desktop\quiz\quiz\Som\musica.wav");
+            simpleSound.PlayLooping();
         }
 
         public Form1()
@@ -28,7 +28,11 @@ namespace Quiz
 
         private void COMEÇAR_Click(object sender, EventArgs e)
         {
-
+            Form2 tela = new Form2();
+            tela.Show();
+            this.Hide();
+            SoundPlayer simpleSound = new SoundPlayer(@"C:\Users\Fatec\Desktop\quiz\quiz\Som\musica.wav");
+            simpleSound.Stop();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -38,7 +42,7 @@ namespace Quiz
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            
         }
     }
 }
