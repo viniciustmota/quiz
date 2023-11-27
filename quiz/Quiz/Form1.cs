@@ -8,6 +8,8 @@ using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
+
 
 namespace Quiz
 {
@@ -16,9 +18,27 @@ namespace Quiz
 
         private void playSimpleSound()
         {
-            SoundPlayer simpleSound = new SoundPlayer(@"C:\Users\Fatec\Desktop\quiz\quiz\Som\musica.wav");
-            simpleSound.PlayLooping();
+            // Obtém o diretório de inicialização do aplicativo
+            string diretorioDoAplicativo = Application.StartupPath;
+
+            // Constrói o caminho completo para o arquivo de som
+            string caminhoDoSom = Path.Combine(diretorioDoAplicativo,"../", "../", "../", "Som", "musica.wav");
+
+            // Cria e reproduz o player de som
+            SoundPlayer simpleSound = new SoundPlayer(caminhoDoSom);
+
+            try
+            {
+                simpleSound.PlayLooping();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Erro ao reproduzir o som: {caminhoDoSom} {ex.Message}", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
+
+
+
 
         public Form1()
         {

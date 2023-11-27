@@ -303,5 +303,8 @@
   <ItemGroup>
     <None Include="Resources\god of war logo.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vencedor.gif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

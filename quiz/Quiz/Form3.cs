@@ -26,7 +26,7 @@ namespace Quiz
         private async void verificaAcerto()
         {
             Pontos pontos = new Pontos();
-            if (radioButton4.Checked == true)
+            if (radioButton3.Checked == true)
             {
                 this.BackColor = Color.Green;
                 pontos.Certo = pontos.Certo + 1;
@@ -67,7 +67,27 @@ namespace Quiz
 
         private void PictureBox1_Click(object sender, EventArgs e)
         {
+            verificaAcerto();
+        }
 
+        private void radioButton3_CheckedChanged_1(object sender, EventArgs e)
+        {
+            verificaAcerto();
+        }
+
+        private void radioButton1_CheckedChanged_1(object sender, EventArgs e)
+        {
+            verificaAcerto();
+        }
+
+        private void radioButton2_CheckedChanged_1(object sender, EventArgs e)
+        {
+            verificaAcerto();
+        }
+
+        private void radioButton4_CheckedChanged_1(object sender, EventArgs e)
+        {
+            verificaAcerto();
         }
     }
 }
