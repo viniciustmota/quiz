@@ -19,6 +19,7 @@ namespace Quiz
         {
             InitializeComponent();
             CarregarGif();
+            this.Load += new EventHandler(Form17_Load);
         }
 
         private void CarregarGif()
@@ -37,6 +38,18 @@ namespace Quiz
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private async void Form17_Load(object sender, EventArgs e)
+        {
+            // Configura o texto do Label para o item que você deseja exibir
+            await Task.Delay(12000);
+            groupBox1.Visible = true;
+        }
+
+        private void GroupBox1_Enter(object sender, EventArgs e)
         {
 
         }

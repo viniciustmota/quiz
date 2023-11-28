@@ -22,19 +22,12 @@ namespace Quiz
             string diretorioDoAplicativo = Application.StartupPath;
 
             // Constrói o caminho completo para o arquivo de som
-            string caminhoDoSom = Path.Combine(diretorioDoAplicativo,"../", "../", "../", "Som", "musica.wav");
+            string caminhoDoSom = Path.Combine(diretorioDoAplicativo, "../", "../", "../", "Som", "musica.wav");
 
             // Cria e reproduz o player de som
             SoundPlayer simpleSound = new SoundPlayer(caminhoDoSom);
 
-            try
-            {
-                simpleSound.PlayLooping();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Erro ao reproduzir o som: {caminhoDoSom} {ex.Message}", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+            simpleSound.PlayLooping();
         }
 
 
@@ -48,7 +41,7 @@ namespace Quiz
 
         private void COMEÇAR_Click(object sender, EventArgs e)
         {
-            Form2 tela = new Form2();
+            Form17 tela = new Form17();
             tela.Show();
             this.Hide();
             SoundPlayer simpleSound = new SoundPlayer(@"C:\Users\Fatec\Desktop\quiz\quiz\Som\musica.wav");

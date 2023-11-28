@@ -64,5 +64,10 @@ namespace Quiz
         {
             verificaAcerto();
         }
+
+        private void PictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
