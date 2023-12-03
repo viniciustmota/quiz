@@ -41,7 +41,7 @@ namespace Quiz
 
         private void COMEÇAR_Click(object sender, EventArgs e)
         {
-            Form17 tela = new Form17();
+            Form2 tela = new Form2();
             tela.Show();
             this.Hide();
             SoundPlayer simpleSound = new SoundPlayer(@"C:\Users\Fatec\Desktop\quiz\quiz\Som\musica.wav");

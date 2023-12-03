@@ -20,6 +20,9 @@ namespace Quiz
             InitializeComponent();
             CarregarGif();
             this.Load += new EventHandler(Form17_Load);
+            Pontos p = new Pontos();
+            label3.Text = "Sua pontuação foi de " + Convert.ToString(p.Certo);
+            label4.Text = "Total de erros: " + Convert.ToString(p.Erro);
         }
 
         private void CarregarGif()
@@ -50,6 +53,36 @@ namespace Quiz
         }
 
         private void GroupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Pontos p = new Pontos();
+            p.Certo = 0;
+            p.Erro = 0;
+            Form1 form = new Form1();
+            form.Show();
+            this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void Form17_Load_1(object sender, EventArgs e)
         {
 
         }
